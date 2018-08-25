@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title></title>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/style.default.css" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.cookie.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.uniform.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.tagsinput.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/charCount.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/ui.spinner.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/custom/general.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/custom/forms.js"></script>
+
+<!--[if IE 9]>
+    <link rel="stylesheet" media="screen" href="css/style.ie9.css"/>
+<![endif]-->
+<!--[if IE 8]>
+    <link rel="stylesheet" media="screen" href="css/style.ie8.css"/>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="__PUBLIC__/adminjs/plugins/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<include file="Public/header" /> 
+ <include file="Public/menu" />
+ 
+ <div class="centercontent tables">
+ 
+  <div class="pageheader">
+            <h1 class="pagetitle">关键字管理</h1>
+            <span class="pagedesc">Keywords Manage</span>  
+        </div><!--pageheader--> 
+        
+     <div id="contentwrapper" class="contentwrapper">
+ 		 <div id="validation" class="subcontent" >
+ 				
+		<foreach name="keywordsArr" item="v">
+           <h4 align="center">{$v.cate_name}</h4>
+                <form class="stdform stdform2" method="post"  enctype="multipart/form-data" action="{:U('Admin/Banner/keywords_save')}">  
+                  <p>  
+                  <label>标题</label>
+                 <span class="field">
+               <input type="text" name="title" id="firstname2" class="longinput" value="{$v['title']}" required />
+                   </span>
+                  </p> 	
+                  
+                        <p>
+                        	<label>关键字</label>
+                              <span class="field">
+                            	<input type="hidden" name="id" value="{$v['id']}"/>
+                               <input type="text" name="keywords" id="firstname2" class="longinput"  value="{$v['keywords']}" required /> 
+                              </span>
+                        </p>
+                        
+                         <p>
+                        	<label>描述</label>
+                              <span class="field">
+                            <input type="text" name="description" id="firstname2" class="longinput" value="{$v['description']}" required />
+                               
+                              </span>
+                        </p>
+                        
+                          
+                        <p class="stdformbutton">
+                        	<!-- <button class="submit radius2">Submit Button</button> -->
+                            <input type="submit" class="reset radius2" value="更改" />
+                        </p>
+                        
+			 </form> 
+			 <br/><br/>
+			</foreach>	
+          
+					
+
+            </div><!--subcontent-->
+ 		 
+ 		
+     
+          
+        </div><!--contentwrapper-->
+        
+	</div><!-- centercontent -->
+    
+ 
+  <include file="Public/footer" />  

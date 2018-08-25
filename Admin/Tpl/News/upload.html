@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css"
+	href="http://www.wangeditor.com/bootstrap-3.3.0/css/bootstrap.min.css">
+</head>
+<body>
+   <textarea style="height:400px;max-height:500px;" name="content" id="textarea1" class="longinput"></textarea>
+                      
+</body>
+
+<script type="text/javascript" src="http://www.wangeditor.com/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/wangeditor@3.0.12/release/wangEditor.min.js"></script>
+<script type="text/javascript">
+var E = window.wangEditor
+var editor = new E('textarea1')
+
+editor.customConfig.uploadImgShowBase64 = true
+editor.create()
+</script>
+</html>

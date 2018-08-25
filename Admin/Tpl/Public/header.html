@@ -1,0 +1,71 @@
+<body class="withvernav">
+<div class="bodywrapper">
+    <div class="topheader">
+        <div class="left">
+            <h1 class="logo"><span>后台</span></h1>
+            <span class="slogan"></span>
+            
+            <div class="search">
+            	<form action="" method="post">
+                	<input type="text" name="keyword" id="keyword" value="" />
+                    <button class="submitbutton"></button>
+                </form>
+            </div><!--search-->
+            
+            <br clear="all" />
+            
+        </div><!--left-->
+        
+        <div class="right">
+        	<!--<div class="notification">
+                <a class="count" href="ajax/notifications.html"><span>9</span></a>
+        	</div>-->
+            <div class="userinfo">
+            
+                <span>{$Think.cookie.username}</span>
+            </div><!--userinfo-->
+  <div class="userinfodrop">
+            	<div class="avatar">
+                	<a href=""><img src="__PUBLIC__/admin/images/thumbs/avatarbig.png" alt="" /></a>
+                    <div class="changetheme">
+           <br />
+                    	<a class="default"></a>
+                        <a class="blueline"></a>
+                        <a class="greenline"></a>
+                        <a class="contrast"></a>
+                        <a class="custombg"></a>
+                    </div>
+                </div><!--avatar-->
+                <div class="userdata">
+                	<h4>{$Think.cookie.username}</h4>
+                
+                    <ul>
+                    	<li><a href="editprofile.html">编号:{$Think.cookie.number}</a></li>
+                        <li><a href="accountsettings.html">注册时间:{$Think.cookie.res_time}</a></li>
+                        <li><a href="help.html">IP:{$Think.cookie.res_ip}</a></li>
+                        <li><a href="{:U('Admin/Login/exit_login')}">退出</a></li>
+                    </ul>
+                </div><!--userdata-->
+            </div><!--userinfodrop-->
+        </div><!--right-->
+    </div><!--topheader-->
+<div class="header">
+    	<ul class="headermenu">
+        	<li class="current"><a href="{:U('Admin/Index/index')}"><span class="icon icon-flatscreen"></span></a></li>
+            <li><a href="#"><span class="icon icon-pencil"></span></a></li>
+            <li><a href="#"><span class="icon icon-message"></span></a></li>
+            <li><a href="#"><span class="icon icon-chart"></span></a></li>
+        </ul>
+        
+       <div class="headerwidget">
+        
+        </div><!--headerwidget-->
+        
+    </div><!--header-->
+<script type="text/javascript"> 
+
+document.onkeypress=banBackSpace;
+
+document.onkeydown=banBackSpace;
+</script>   
+            

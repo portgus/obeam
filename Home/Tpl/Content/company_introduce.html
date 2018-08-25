@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- <link href="/templates/default/style/danye.css" rel="stylesheet" type="text/css" /> -->
+<script typet="text/javascript" src="__PUBLIC__/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/js.js" ></script>
+<link href="__PUBLIC__/css/index.css" rel="stylesheet" type="text/css" />
+    <!-- 标题 -->
+<title></title>
+
+            <!-- 描述 -->
+<meta name="description" content="">
+                <!-- 关键词 -->
+<meta name="keywords" content="">
+            
+
+<!--[if IE 6]>
+<script type="text/javascript" src="png.js"></script>
+<script>
+PNG.fix('*');
+</script><![endif]-->
+</head>
+<body>
+<!--头部 开始-->
+<script type="text/javascript">
+
+// 自适应
+$(function(){
+    var wid=$(window).width();
+    var he=wid/1920*472;
+    $(".banner").css("height",he);
+    $(".banner").css("margin","0 auto");
+    $(".banner img").css("width",wid);
+    $(".banner img").css("height",he);
+    // alert(wid);
+})
+</script>
+
+
+<include file="Public:header"/>
+	
+
+   <div class="head_banner">
+        <div id="slideBox" class="slideBox">
+            <div class="hd">
+                <ul> 
+                </ul>
+            </div>
+            <div class="bd">
+                <ul>
+                                    
+                                                        <li>
+                        <a href="index.php">
+                            <img src="/obeam/Public/images/20170913170033_83916.png" alt="">
+                        </a>
+                    </li>
+                                    </ul>
+            </div>
+            <script>
+                var bann=0;
+                $(".bd ul li").each(function(){
+                    bann++;
+                });
+                $(".bd ul li").each(function(){
+                    if(bann>1){
+                        $(".hd ul").append("<li></li>");
+                    }
+                });
+                jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,effect:"fade",/*滚动方式*/delayTime:1500,/*滚动速度*/interTime:5000,/*滚动间隔*/});
+                $(document).ready(function(){
+                    var b_width=(-$(".hd").width())/2+'px';
+                    $(".hd").css({'margin-left':b_width});
+                    $(".hd").show();
+                })
+
+            </script>         
+    </div>
+</div>
+<script>
+    $('.logo1 img').attr({'alt':'公装logo'});
+    
+</script>
+<!--头部 结束-->  
+<!--内容 开始-->
+<!-- <div class="erjitit">
+  
+    <div class="ertitcon">
+        <div class="erjititle">公司简介</div>
+        <div class="erjititre">
+         
+                        <div class="newsa">
+                <a href="index.php?p=about&id=124&lanmu=03" >企业简介</a>
+                <div class="newsb"></div>
+                <div class="cl"></div>
+            </div>
+                      <div class="newsa">
+                <a href="index.php?p=about&id=125&lanmu=03" >企业理念</a>
+                <div class="newsb"></div>
+                <div class="cl"></div>
+            </div>
+             
+        </div>
+    </div>
+</div> -->
+<div class="h35"></div>
+
+
+
+
+
+
+
+
+<div class="erjicon">
+    <div class="mrb">
+        <div class="mrb_top">
+            
+            <div class="mrb_topa fl"></div>
+            <div class="mrb_topb fl">
+                企业简介
+            </div>
+            <div class="mrb_topc fr">
+                <span>
+                    您现在所在的位置：
+                    <a href="http://www.gxfczs.com">恭喜发财装饰</a>
+                     > 
+                </span>
+                <span class="about_top_daohan">
+                    <span>企业简介</span>
+                </span>
+            </div>
+            <div class="cl"></div>
+        </div>
+                    <div class="mrb_con">
+            
+            {$content.content}
+            
+            </div>
+             
+    </div>
+  
+  <include file="Public:menu"/>
+
+    <div class="cl"></div>
+</div>
+
+
+
+
+
+
+ 
+    
+    
+
+ 
+<div class="h50"></div>
+<!--内容 结束-->
+
+<include file="Public:footer"/>
+
+
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>数据表格页面</title>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/style.default.css" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery1.8.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.cookie.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.uniform.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/custom/general.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/custom/tables.js"></script>
+<!--[if IE 9]>
+    <link rel="stylesheet" media="screen" href="css/style.ie9.css"/>
+<![endif]-->
+<!--[if IE 8]>
+    <link rel="stylesheet" media="screen" href="css/style.ie8.css"/>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="__PUBLIC__/adminjs/plugins/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript" >
+$(function(){
+	$("#delete_all").click(function(){
+	    //找选中的主键值，用循环遍历选中的主键值
+	    var ck =$(".ck");
+	    var str ="";
+	    for(var i=0;i<ck.length;i++)
+	    {
+	        if(ck.eq(i).prop("checked"))
+	        {
+	            str+=ck.eq(i).val()+',';    
+	        }    
+	    }
+	   str= str.substr(0,str.length-1);   //分隔符占3个字符，截取字符串，去掉最后的"','"，这样正好匹配SQL语句
+	    
+	    $.ajax({
+	        //url:"Delete.php",
+	        url:"{:U('Admin/Nav/delete_all')}",
+	        data:{'str':str},
+	        type:"POST",
+	        success: function(data){
+	           if(data==1){
+	        	   $(".trdelete").remove();
+	        	   alert('删除成功');
+	        	   
+	           }else{
+	        	   alert(data);
+	           }
+	                      
+	            }            
+	        });        
+	    })
+	
+})
+
+function trash_delete(id){
+	$.ajax({
+		url:"{:U('Admin/Nav/delete')}",
+		data:{'id':id},
+		type:'POST',
+		success:function(data){
+			if(data==1){
+				  $(".trdelete_"+id).remove();
+				
+			}else{
+				alert('删除失败'+data);
+			}
+		}
+	})
+}	
+
+</script> 
+</head>
+<include file="Public:header" /> 
+ <include file="Public:menu" />
+ <div class="centercontent tables">
+ 
+  <div class="pageheader">
+            <h1 class="pagetitle">导航栏目管理</h1>
+            <span class="pagedesc">Nav Management</span>
+            
+            <ul class="hornav">
+                <li class="current"><a href="#basicform">列表</a></li>
+                <li><a href="#validation">添加</a></li>
+            </ul>
+        </div><!--pageheader-->
+        
+     <div id="contentwrapper" class="contentwrapper">
+         <div id="basicform" class="subcontent">
+       
+                <div class="tableoptions">
+                	<button class=" radius3" title="table2">删除选中</button> &nbsp;
+                </div><!--tableoptions-->	
+                <table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+                    <colgroup>
+                        <col class="con0" style="width: 4%" />
+                        <col class="con1" />
+                        <col class="con0" />
+                        <col class="con1" />
+                        <col class="con0" />
+                        <col class="con1" />
+                        <col class="con0" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                        	<th class="head0"><input type="checkbox" class="checkall" /></th>
+                            <th class="head1">ID</th>
+                            <th class="head0">名称</th>
+            
+                            <th class="head1">排序</th>
+                            <th class="head0">管理</th>
+                        </tr>
+                    </thead>        
+                    <tbody>
+                    <foreach name="nav_arr" item="v" key='k'>
+	
+
+                        <tr class=trdelete_{$v['id']}>
+                        	<td align="center"><input type="checkbox" class="ck" value="{$v['id']}" /></td>
+                            <td>{$v['id']}</td>
+                            <td>{$v['title']}</td>
+                            <td>{$v['sort']}</td>
+                               <td >
+                              
+								  <a href="{:U('Admin/Nav/editor',array('id'=>$v['id']))}" class="btn btn_mail"><span >编辑</span></a>
+                       
+							
+                     
+                       <a href="javascript:trash_delete({$v['id']})" class="btn btn_trash"><span>删除</span></a>
+                            </td>
+                        </tr>
+                        	</foreach>
+                    </tbody>
+                </table>
+                
+               <div>
+			{$pageStr}
+               </div>                      
+ 		</div>
+ 		
+
+ 		 <div id="validation" class="subcontent"  style="display: none">
+ 		
+					<form class="stdform stdform2" method="post" action="{:U('Admin/Nav/save')}">
+                    	<p>
+                        	<label>栏目名称</label>
+                            <span class="field"><input type="text" name="title" id="firstname2" class="longinput"   required/></span>
+                        </p>
+                        <p>
+                        	<label>栏目排序</label>
+                            <span class="field"><input type="text" name="sort" id="firstname2" class="longinput"  required/></span>
+                        </p>
+                         <input type="hidden" name="space" value="{$Think.get.id}"/>
+                        <p class="stdformbutton">
+                        	<!-- <button class="submit radius2">Submit Button</button> -->
+                            <input type="submit" class="reset radius2" value="确定" />
+                        </p>
+                    </form>	
+                    <br />
+
+            </div><!--subcontent-->
+ 		 
+          
+        </div><!--contentwrapper-->
+        
+	</div><!-- centercontent -->
+    
+ 
+  <include file="Public:footer" />  

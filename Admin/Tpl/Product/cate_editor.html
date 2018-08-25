@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title></title>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/style.default.css" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery1.8.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.cookie.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/plugins/jquery.uniform.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/custom/general.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/custom/tables.js"></script>
+<!--[if IE 9]>
+    <link rel="stylesheet" media="screen" href="css/style.ie9.css"/>
+<![endif]-->
+<!--[if IE 8]>
+    <link rel="stylesheet" media="screen" href="css/style.ie8.css"/>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="__PUBLIC__/adminjs/plugins/css3-mediaqueries.js"></script>
+<![endif]-->
+
+</head>
+<include file="Public:header" /> 
+ <include file="Public:menu" />
+ <div class="centercontent tables">
+ 
+  <div class="pageheader">
+            <h1 class="pagetitle">产品栏目编辑</h1>
+            <span class="pagedesc">Product Category Edit</span>
+            
+          
+        </div><!--pageheader-->
+        
+     <div id="contentwrapper" class="contentwrapper">
+       
+
+ 		 <div id="validation" class="subcontent" >
+ 		
+					<form class="stdform stdform2" method="post" action="{:U('Admin/Product/product_cate_add')}">
+                    	<p>
+                        	<label>栏目名称</label>
+                            <span class="field"><input type="text" name="cate_name" id="firstname2" class="longinput"  value="{$cate_arr['cate_name']}" required/></span>
+                        </p>
+                          <p>
+                        	<label>文件名称</label>
+                            <span class="field"><input type="text" name="url_param" id="firstname2" class="longinput" value="{$cate_arr['url_param']}" /></span>
+                        </p>
+                        <p>
+                        	<label>标题</label>
+                            <span class="field"><input type="text" name="web_title" id="firstname2" class="longinput" value="{$cate_arr['web_title']}" required/></span>
+                        </p>
+                          <p>
+                        	<label>关键字</label>
+                            <span class="field"><input type="text" name="web_keywords" id="firstname2" class="longinput" value="{$cate_arr['web_keywords']}" required/></span>
+                        </p>
+                          <p>
+                        	<label>描述</label>
+                            <span class="field"><input type="text" name="web_desc" id="firstname2" class="longinput" value="{$cate_arr['web_desc']}" required/></span>
+                        </p>
+                           <p>
+                        	<label>栏目描述</label>
+                            <span class="field"><input type="text" name="message" id="firstname2" class="longinput"  value="{$cate_arr['message']}" /></span>
+                        </p>
+                        	<p>
+                        	<label>栏目顺序</label>
+                            <span class="field"><input type="text" name="sort" id="firstname2" class="longinput"  value="{$cate_arr['sort']}" /></span>
+                        </p>
+                        <p>
+                        	<label>选择分类</label>
+                            <span class="field">
+                            <select name="cateid" id="selection2">
+                            	<option value="0">顶级分类</option>
+                            	{$optionStr}
+                            </select>
+                            </span>   
+                        </p>
+							<input type="hidden" name="id" value="{$cate_arr['id']}"/>
+                        <p class="stdformbutton">
+                        	<!-- <button class="submit radius2">Submit Button</button> -->
+                            <input type="submit" class="reset radius2" value="确定" />
+                        </p>
+                    </form>
+					
+                    <br />
+
+            </div><!--subcontent-->
+ 		 
+ 		
+     
+          
+        </div><!--contentwrapper-->
+        
+	</div><!-- centercontent -->
+    
+ 
+  <include file="Public:footer" />  
+ <script>
+cateid={$cate_arr['pid']};
+$("#selection2").val(cateid);
+</script> 

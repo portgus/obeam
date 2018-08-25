@@ -1,0 +1,1040 @@
+[ 2018-05-25T11:01:04+08:00 ] 171.8.18.183 /admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017065s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000618s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000609s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002517s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2018-05-25T11:03:44+08:00 ] 171.8.18.183 /admin.php/Product/product_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8] Undefined index:  cateid D:\freehost\quohoo\web\Admin\Lib\Action\ProductAction.class.php 第 71 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_product` LIMIT 1   [ RunTime:0.000317s ]
+NOTIC: [8] Undefined index:  cateid D:\freehost\quohoo\web\Admin\Lib\Action\ProductAction.class.php 第 84 行.
+SQL: SELECT * FROM `admin_product` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000695s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000652s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000582s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002516s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2018-05-25T11:03:54+08:00 ] 171.8.18.183 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000621s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014695s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000652s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000579s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002505s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2018-05-25T11:11:16+08:00 ] 171.8.18.183 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+
+[ 2018-05-25T11:11:55+08:00 ] 171.8.18.183 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+
+[ 2018-05-25T11:12:13+08:00 ] 171.8.18.183 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+
+[ 2018-05-25T11:12:48+08:00 ] 171.8.18.183 /admin.php/Product/product_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000758s ]
+SQL: INSERT INTO `admin_product` (`web_title`,`web_keywords`,`web_desc`,`pro_name`,`brand`,`level`,`industry`,`place`,`custom`,`cateid`,`pro_img`,`content`,`intro`,`video_link`,`is_hot`,`smeta`,`pub_person`) VALUES ('迷你疯狂迪斯科魔盘','迷你疯狂迪斯科魔盘','迷你疯狂迪斯科魔盘','迷你疯狂迪斯科魔盘','坤虎','一等','河南坤虎游乐设备有限公司','郑州','是',5,'<p><img src=\"/Public/Uploads/product_editor/5b077ed41b58f.jpg\" alt=\"dsk-23\" style=\"max-width:100%;\" class=\"\"></p><p><img src=\"/Public/Uploads/product_editor/5b077efb89e8a.jpg\" alt=\"dsk3\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b077f0d4cdf9.jpg\" alt=\"dsk2\" style=\"max-width:100%;\"></p><p><br></p>','<p><font size=\"4\">迷你疯狂魔盘</font></p><p><font size=\"4\">电压:380V</font></p><p><font size=\"4\">乘员:8</font></p><p><font size=\"4\">大盘直径2.2m</font></p><p><font size=\"4\">气缸缸径220mm</font></p><p><font size=\"4\">气缸行程280mm</font></p><p><font size=\"4\">螺杆静音空气压缩机7.5kW</font></p><p><font size=\"4\">变频旋转电机1.5kw</font></p><p><font size=\"4\">总占地4X5m</font></p><p><br></p>','','13393729309',0,'[\"Public\\/Uploads\\/product\\/20180525\\/5b077f300835e.jpg\"]','admin') [ RunTime:0.000497s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007458s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000571s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002403s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001722s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000045s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002359s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2018-05-25T11:12:49+08:00 ] 171.8.18.183 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000615s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002486s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000758s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2018-05-25T11:21:04+08:00 ] 171.8.18.183 /admin.php/Product/product_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Undefined index:  cateid D:\freehost\quohoo\web\Admin\Lib\Action\ProductAction.class.php 第 71 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_product` LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index:  cateid D:\freehost\quohoo\web\Admin\Lib\Action\ProductAction.class.php 第 84 行.
+SQL: SELECT * FROM `admin_product` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000602s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015333s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000645s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000593s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002524s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000781s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2018-05-25T11:21:09+08:00 ] 171.8.18.183 /admin.php/Product/editor_product/id/71.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=71 ) LIMIT 1   [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000686s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000117s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017097s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000579s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002515s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000776s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-05-25T11:21:34+08:00 ] 171.8.18.183 /admin.php/Product/editor_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000734s ]
+SQL: UPDATE `admin_product` SET `web_title`='迪斯科转盘',`web_keywords`='迪斯科转盘',`web_desc`='迪斯科转盘',`pro_name`='迪斯科转盘',`brand`='坤虎',`level`='一等',`industry`='河南坤虎游乐设备有限公司',`place`='郑州',`custom`='是',`cateid`=5,`pro_img`='<p><img src=\"/Public/Uploads/product_editor/5b0235a504706.jpg\" alt=\"dsk-203\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b0235ae45474.jpg\" alt=\"dsk-23\" style=\"max-width:100%;\"></p><p><br></p>',`content`='<p><font size=\"4\">16座迪斯科转盘技术参数：</font></p><p><font size=\"4\">工作电源：380V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p><p><font size=\"4\">载客&nbsp;量：&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p><p><font size=\"4\">最大功率：10KW&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p><p><font size=\"4\">最大限速度：1.88m/s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p><p><font size=\"4\">大盘直径：3米，两个气动门</font></p><p><font size=\"4\">占地面积：6X7m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p><p><font size=\"4\">座舱运行最高度：1.9米</font></p><p><font size=\"4\">转速：0-12圈</font></p><p><br></p>',`intro`='',`video_link`='13393729309',`is_hot`=0,`id`=71,`pub_person`='admin' WHERE ( id=71 ) [ RunTime:0.000490s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=71 ) LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007503s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002383s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001717s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003041s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000051s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002427s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2018-05-25T11:21:35+08:00 ] 171.8.18.183 /admin.php/Product/editor_product/id/71.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=71 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000587s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016736s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000649s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002502s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2018-05-25T11:28:00+08:00 ] 171.8.18.183 /admin.php/Product/product_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [8] Undefined index:  cateid D:\freehost\quohoo\web\Admin\Lib\Action\ProductAction.class.php 第 71 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_product` LIMIT 1   [ RunTime:0.000365s ]
+NOTIC: [8] Undefined index:  cateid D:\freehost\quohoo\web\Admin\Lib\Action\ProductAction.class.php 第 84 行.
+SQL: SELECT * FROM `admin_product` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000997s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000112s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016330s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000703s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000632s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002692s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2018-05-25T11:28:04+08:00 ] 171.8.18.183 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000634s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014882s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000580s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002490s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2018-05-25T11:29:08+08:00 ] 171.8.18.183 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+
+[ 2018-05-25T11:29:17+08:00 ] 171.8.18.183 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-05-25T11:29:41+08:00 ] 171.8.18.183 /admin.php/Product/product_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000722s ]
+SQL: INSERT INTO `admin_product` (`web_title`,`web_keywords`,`web_desc`,`pro_name`,`brand`,`level`,`industry`,`place`,`custom`,`cateid`,`pro_img`,`content`,`intro`,`video_link`,`is_hot`,`smeta`,`pub_person`) VALUES ('模块化地板','模块化地板','模块化地板','模块化地板','坤虎','一等','河南坤虎游乐设备有限公司','郑州','是',2,'<p><img src=\"/Public/Uploads/product_editor/5b078304d277e.jpg\" alt=\"ppc3\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07830d26c5b.jpg\" alt=\"ppc4\" style=\"max-width:100%;\"></p><p><br></p>','','','13393729309',0,'[\"Public\\/Uploads\\/product\\/20180525\\/5b0783255fff9.jpg\"]','admin') [ RunTime:0.000396s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000582s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000578s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002434s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001761s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003160s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000045s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002542s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000789s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2018-05-25T11:29:43+08:00 ] 171.8.18.183 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000641s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000591s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002536s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-05-25T11:41:41+08:00 ] 171.8.18.183 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-05-25T11:41:56+08:00 ] 171.8.18.183 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2018-05-25T11:42:10+08:00 ] 171.8.18.183 /admin.php/Product/product_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000721s ]
+SQL: INSERT INTO `admin_product` (`web_title`,`web_keywords`,`web_desc`,`pro_name`,`brand`,`level`,`industry`,`place`,`custom`,`cateid`,`pro_img`,`content`,`intro`,`video_link`,`is_hot`,`smeta`,`pub_person`) VALUES ('防撞梁加厚木板','防撞梁加厚木板','防撞梁加厚木板','防撞梁加厚木板','坤虎','一等','河南坤虎游乐设备有限公司','郑州','是',2,'<p><img src=\"/Public/Uploads/product_editor/5b0785f50febe.jpg\" alt=\"ppc5\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07860422f68.jpg\" alt=\"ppc6\" style=\"max-width:100%;\"></p><p><br></p>','','','13393729309',0,'[\"Public\\/Uploads\\/product\\/20180525\\/5b0786120c134.jpg\"]','admin') [ RunTime:0.000420s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=80 ) LIMIT 1   [ RunTime:0.000187s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007877s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000605s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000574s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002452s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001701s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003071s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000012s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002372s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-05-25T11:42:11+08:00 ] 171.8.18.183 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000579s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014570s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000643s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002511s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2018-05-25T19:28:00+08:00 ] 171.8.16.41 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000599s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000645s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000594s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000532s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002579s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-05-25T19:32:20+08:00 ] 171.8.16.41 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+
+[ 2018-05-25T19:32:30+08:00 ] 171.8.16.41 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+
+[ 2018-05-25T19:34:08+08:00 ] 171.8.16.41 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-05-25T19:34:19+08:00 ] 171.8.16.41 /admin.php/Product/product_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000792s ]
+SQL: INSERT INTO `admin_product` (`web_title`,`web_keywords`,`web_desc`,`pro_name`,`brand`,`level`,`industry`,`place`,`custom`,`cateid`,`pro_img`,`content`,`intro`,`video_link`,`is_hot`,`smeta`,`pub_person`) VALUES ('电动地网碰碰车','电动地网碰碰车','电动地网碰碰车','电动地网碰碰车','坤虎','一等','坤虎','郑州','河南坤虎游乐设备有限公司',22,'<p><img src=\"/Public/Uploads/product_editor/5b07f444454ca.jpg\" alt=\"ppc7\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07f44e2a873.jpg\" alt=\"ppc8\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07f4b00467c.jpg\" alt=\"ppc9\" style=\"max-width:100%;\"></p><p><br></p>','','','13393729309',1,'[\"Public\\/Uploads\\/product\\/20180525\\/5b07f4bbac4db.jpg\"]','admin') [ RunTime:0.000530s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007518s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000590s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002439s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001797s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003126s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002535s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-05-25T19:34:21+08:00 ] 171.8.16.41 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000631s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014665s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000699s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002596s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-05-25T19:34:24+08:00 ] 171.8.16.41 /admin.php/Product/product_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] Undefined index:  cateid D:\freehost\quohoo\web\Admin\Lib\Action\ProductAction.class.php 第 71 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_product` LIMIT 1   [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index:  cateid D:\freehost\quohoo\web\Admin\Lib\Action\ProductAction.class.php 第 84 行.
+SQL: SELECT * FROM `admin_product` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000623s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015469s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000592s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000778s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2018-05-25T19:34:28+08:00 ] 171.8.16.41 /admin.php/Product/editor_product/id/81.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000627s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000117s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016777s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000654s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000593s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002538s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2018-05-25T19:34:38+08:00 ] 171.8.16.41 /admin.php/Product/editor_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000693s ]
+SQL: UPDATE `admin_product` SET `web_title`='电动地网碰碰车',`web_keywords`='电动地网碰碰车',`web_desc`='电动地网碰碰车',`pro_name`='电动地网碰碰车',`brand`='坤虎',`level`='一等',`industry`='坤虎',`place`='郑州',`custom`='河南坤虎游乐设备有限公司',`cateid`=2,`pro_img`='<p><img src=\"/Public/Uploads/product_editor/5b07f444454ca.jpg\" alt=\"ppc7\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07f44e2a873.jpg\" alt=\"ppc8\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07f4b00467c.jpg\" alt=\"ppc9\" style=\"max-width:100%;\"></p><p><br></p>',`content`='',`intro`='',`video_link`='13393729309',`is_hot`=1,`id`=81,`pub_person`='admin' WHERE ( id=81 ) [ RunTime:0.000391s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007464s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000589s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002450s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001832s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003104s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000062s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000045s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2018-05-25T19:34:39+08:00 ] 171.8.16.41 /admin.php/Product/editor_product/id/81.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000643s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016688s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000643s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002603s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2018-05-25T21:06:00+08:00 ] 171.8.16.41 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+
+[ 2018-05-25T21:06:13+08:00 ] 171.8.16.41 /admin.php/Product/editor_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000731s ]
+SQL: UPDATE `admin_product` SET `web_title`='电动地网碰碰车',`web_keywords`='电动地网碰碰车',`web_desc`='电动地网碰碰车',`pro_name`='电动地网碰碰车',`brand`='坤虎',`level`='一等',`industry`='坤虎',`place`='郑州',`custom`='河南坤虎游乐设备有限公司',`cateid`=2,`pro_img`='<p><img src=\"/Public/Uploads/product_editor/5b07f444454ca.jpg\" alt=\"ppc7\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07f44e2a873.jpg\" alt=\"ppc8\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07f4b00467c.jpg\" alt=\"ppc9\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b080a38ed371.jpg\" alt=\"ppc9\" style=\"max-width:100%;\" class=\"\"></p>',`content`='',`intro`='',`video_link`='13393729309',`is_hot`=1,`id`=81,`pub_person`='admin' WHERE ( id=81 ) [ RunTime:0.000454s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007520s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000577s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002416s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001770s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003100s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000045s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002508s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000793s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-05-25T21:06:15+08:00 ] 171.8.16.41 /admin.php/Product/editor_product/id/81.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000623s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016682s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000650s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000588s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002527s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000771s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2018-05-25T21:06:36+08:00 ] 171.8.16.41 /admin.php/Product/editor_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000759s ]
+SQL: UPDATE `admin_product` SET `web_title`='电动地网碰碰车',`web_keywords`='电动地网碰碰车',`web_desc`='电动地网碰碰车',`pro_name`='电动地网碰碰车',`brand`='坤虎',`level`='一等',`industry`='坤虎',`place`='郑州',`custom`='河南坤虎游乐设备有限公司',`cateid`=2,`pro_img`='<p><img src=\"/Public/Uploads/product_editor/5b07f444454ca.jpg\" alt=\"ppc7\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07f44e2a873.jpg\" alt=\"ppc8\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b07f4b00467c.jpg\" alt=\"ppc9\" style=\"max-width:100%;\"></p><p><br></p><p><br></p>',`content`='',`intro`='',`video_link`='13393729309',`is_hot`=1,`id`=81,`pub_person`='admin' WHERE ( id=81 ) [ RunTime:0.000394s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007467s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000581s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002417s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001752s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003062s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000045s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2018-05-25T21:06:38+08:00 ] 171.8.16.41 /admin.php/Product/editor_product/id/81.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000671s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000127s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016712s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000670s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000595s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000512s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002585s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2018-05-25T21:15:11+08:00 ] 171.8.16.41 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000663s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014676s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000653s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000590s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2018-05-25T21:18:18+08:00 ] 171.8.16.41 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+
+[ 2018-05-25T21:18:27+08:00 ] 171.8.16.41 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-05-25T21:19:04+08:00 ] 171.8.16.41 /admin.php/Product/product_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000757s ]
+SQL: INSERT INTO `admin_product` (`web_title`,`web_keywords`,`web_desc`,`pro_name`,`brand`,`level`,`industry`,`place`,`custom`,`cateid`,`pro_img`,`content`,`intro`,`video_link`,`is_hot`,`smeta`,`pub_person`) VALUES ('海洋旋转塔','迷你旋转塔 旋转升降塔','迷你旋转塔 旋转升降塔','迷你旋转塔 旋转升降塔','坤虎','一等','河南坤虎游乐设备有限公司','郑州','是',14,'<p><img src=\"/Public/Uploads/product_editor/5b080d1ae9557.jpg\" alt=\"xzt9\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b080d23c31ad.jpg\" alt=\"xzt8\" style=\"max-width:100%;\"></p><p><br></p>','<p><font size=\"4\">设备基础参数:</font></p><p><font size=\"4\">电压：380V</font></p><p><font size=\"4\">静音空气压缩机:7.5KW</font></p><p><font size=\"4\">变频旋转电机:1.5KW</font></p><p><font size=\"4\">灯光:500W</font></p><p><font size=\"4\">高逼真音质音响:500W</font></p><p><font size=\"4\">最大功率:10千瓦</font></p><p><font size=\"4\">设备总高:3.5m</font></p><p><font size=\"4\">设备直径:2.5m</font></p><p><font size=\"4\">占地直径:4m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p><p><font size=\"4\">载客&nbsp;量：&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p><p><font size=\"4\">最大限速度：1.7m/s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p><p><font size=\"4\">座舱运行最高度：1.8米</font></p><p><font size=\"4\">转速：0-11圈</font></p><p><br></p>','','13393729309',1,'[\"Public\\/Uploads\\/product\\/20180525\\/5b080d48b7c1e.jpg\"]','admin') [ RunTime:0.000413s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=82 ) LIMIT 1   [ RunTime:0.000180s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002420s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001788s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000052s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002482s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2018-05-25T21:19:06+08:00 ] 171.8.16.41 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000642s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014540s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000642s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000591s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002515s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000779s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2018-05-25T21:53:45+08:00 ] 171.8.16.41 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+
+[ 2018-05-25T21:53:56+08:00 ] 171.8.16.41 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+
+[ 2018-05-25T21:54:05+08:00 ] 171.8.16.41 /admin.php/Product/uploadImg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+
+[ 2018-05-25T21:56:11+08:00 ] 171.8.16.41 /admin.php/Product/product_save.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `admin_product` [ RunTime:0.000844s ]
+SQL: INSERT INTO `admin_product` (`web_title`,`web_keywords`,`web_desc`,`pro_name`,`brand`,`level`,`industry`,`place`,`custom`,`cateid`,`pro_img`,`content`,`intro`,`video_link`,`is_hot`,`smeta`,`pub_person`) VALUES ('室内定做转马','室内主体商场定做转马','室内转马 豪华转马  定做转马 定制转马  商场转马','主体乐园定制转马','坤虎','二等','河南坤虎游乐设备有限公司','郑州','是',22,'<p><img src=\"/Public/Uploads/product_editor/5b081569da331.jpg\" alt=\"dzzm8\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b081574bb8e8.jpg\" alt=\"dzzm7\" style=\"max-width:100%;\"></p><p><img src=\"/Public/Uploads/product_editor/5b08157d72fec.jpg\" alt=\"dzzm6\" style=\"max-width:100%;\"></p><p><br></p>','<p><font size=\"4\">根据室内游乐场层高限制定制款式，高度2.7米；大盘为实木地板材质，高端奢华，</font></p><p><font size=\"4\">彰显档次。</font></p><p><font size=\"4\">游乐设备_儿童游乐设备_室内豪华转马_8座豪华转马&nbsp;</font></p><p><font size=\"4\">厅中央有起伏奔跑的大小马群。设备启动后，金光银光，闪闪相映，马群、马车竞相赛跑，</font></p><p><font size=\"4\">形成一个万马奔腾的场面，乘客如同参加一场跑马比赛，无不感到心旷神怡，乐趣无穷！</font></p><p><font size=\"4\">&nbsp;</font></p><p><font size=\"4\">1&gt;传统转马：中间柱子支撑，外观豪华亮丽！</font></p><p><font size=\"4\">&nbsp;</font></p><p><font size=\"4\">2&gt;新型转马：中间无柱子支撑，外观精致美观 &nbsp;适合主体乐园运营。</font></p><p><font size=\"4\">室内豪华8座转马_坤虎游乐设备_坤虎游乐设施_儿童游乐设备</font></p><p><font size=\"4\"><img alt=\"基本参数.jpg\" src=\"https://cbu01.alicdn.com/img/ibank/2018/460/191/8419191064_362032739.jpg\"></font></p><p><font size=\"4\">&nbsp;</font></p><table><tbody><tr><td><p><font size=\"4\">名称</font></p></td><td><p><font size=\"4\">豪华8座转马</font></p></td></tr><tr><td><p><font size=\"4\">乘员</font></p></td><td><p><font size=\"4\">8座（儿童）</font></p></td></tr><tr><td><p><font size=\"4\">占地</font></p></td><td><p><font size=\"4\">直径4米，带围栏直径6米/高度2.7米</font></p></td></tr><tr><td><p><font size=\"4\">功率</font></p></td><td><p><font size=\"4\">2.2KW(220V电压)/3KW（380V电压）</font></p></td></tr><tr><td><p><font size=\"4\">电源</font></p></td><td><p><font size=\"4\">AC220V/380V可选</font></p></td></tr><tr><td><p><font size=\"4\">运行速度</font></p></td><td><p><font size=\"4\">5圈/分钟</font></p></td></tr><tr><td><p><font size=\"4\">场地</font></p></td><td><p><font size=\"4\">室内</font></p><p><font size=\"4\">&nbsp;</font></p></td></tr></tbody></table><p><font size=\"4\"><br></font></p><p><br></p>','','13393729309',1,'[\"Public\\/Uploads\\/product\\/20180525\\/5b0815fbe1b0a.jpg\"]','admin') [ RunTime:0.000479s ]
+SQL: SELECT * FROM `admin_product` WHERE ( id=83 ) LIMIT 1   [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 5 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 7 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 8 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 11 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 13 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 14 行.
+NOTIC: [8] Undefined variable: newsDetail D:\freehost\quohoo\web\Admin\Runtime\Cache\955d53bb735f9d2642ff7b6779059efc.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007744s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000605s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000507s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002527s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\freehost\quohoo\web\ThinkPHP\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001726s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003143s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002394s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2018-05-25T21:56:13+08:00 ] 171.8.16.41 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.000782s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 ) ORDER BY sort ASC LIMIT 8   [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro_arr D:\freehost\quohoo\web\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 348 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014536s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000642s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000588s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002507s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000776s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+

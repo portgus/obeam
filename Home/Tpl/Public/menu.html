@@ -1,0 +1,155 @@
+    <div class="erjigong">
+        <script type="text/javascript">
+function newgdcode(obj,url) {
+  obj.src = url+ '&nowtime=' + new Date().getTime();//后面传递一个随机参数，否则在IE7和火狐下，不刷新图片
+}
+// 表单提交客户端检测
+function Isyx(yx){
+  var reyx= /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+  return(reyx.test(yx));
+}
+function doSubmits(){
+     var name = $('#lc_name').val();
+     var tel = $('#lc_tel').val();
+        if (name==""){
+        alert("亲，请填写姓名！");
+            document.getElementById("lc_name").focus();
+            return false;
+        }
+        if (tel==""){
+        alert("亲，请填写联系电话！");
+            document.getElementById("lc_tel").focus();
+            return false;
+        }
+        var reg =/(^0{0,1}1[3|4|5|6|7|8|9][0-9]{9}$)/; 
+        if(!reg.test(document.getElementById("lc_tel").value)){ 
+        alert("亲，请输入正确的联系电话！");
+            document.getElementById("lc_tel").focus();
+            return false; 
+        }
+      return true;
+      if (document.getElementById("lc_lp").value==""){
+    alert("亲，请填写所在楼盘！");
+        document.getElementById("lc_lp").focus();
+        return false;
+    }
+      if (document.getElementById("lc_mj").value==""){
+    alert("亲，请填写楼盘面积！");
+        document.getElementById("lc_mj").focus();
+        return false;
+    }
+  return true;
+}
+
+</script>
+<div class="erjisheji">
+    <div class="erjishetit">栏目类别</div>
+    <div class="zailiu-left">
+      <div class="zuixin_type">
+            <ul>
+                
+                                <li>
+                                      <a href="/gsjj/124.html"  style="">
+                  
+                  
+                  
+                        <div class="zuixin_tit fl">
+                          企业简介
+                        </div>
+                        <div class="zuixin_tit_nth fr">
+                          >
+                        </div>
+                    </a>
+                </li>
+                              <li>
+                                      <a href="/gsjj/125.html"  style="">
+                  
+                  
+                  
+                        <div class="zuixin_tit fl">
+                          企业理念
+                        </div>
+                        <div class="zuixin_tit_nth fr">
+                          >
+                        </div>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="h24"></div>
+
+
+
+
+<div class="erjisheji">
+    <div class="erjishetit">免费预约设计</div>
+    <div class="h27"></div>
+    <div class="zailiu-left">
+        <form action="{:U('Home/Index/checkMessage')}" method="post" name="myform" onSubmit="return doSubmits()">
+            <div class="zailiu-1">
+                <span style="color:#484848;font-size:14px;">姓&nbsp;名&nbsp;:&nbsp;</span>
+                <input type="text" name="lc_name" id="lc_name" class="main_bd" required >
+                <div class="cl"></div>
+            </div>
+           <div class="zailiu-1">
+               <span style="color:#484848;font-size:14px;">手&nbsp;机&nbsp;:&nbsp;</span>
+               <input type="text" name="lc_tel" id="lc_tel" class="main_bd" required >
+               <div class="cl"></div>
+           </div>
+           <div class="zailiu-1">
+               <span style="color:#484848;font-size:14px;"><!-- 楼盘 -->地&nbsp;址&nbsp;:&nbsp;</span>
+               <input type="text" name="lc_lp" id="lc_lp" class="main_bd" required >
+               <div class="cl"></div>
+           </div>
+           <div class="zailiu-1">
+               <span style="color:#484848;font-size:14px;">面&nbsp;积&nbsp;:&nbsp;</span>
+               <input type="text" name="lc_mj" id="lc_mj" class="main_bd" required >
+               <div class="cl"></div>
+           </div>
+           <input type="hidden" name="lanmu" value="26">
+           <div class="h10"></div>
+           <div class="main_but-1">
+              <input type="submit" id="tijiao-ER" value="立即预约" onClick="return doSubmits();">
+           </div>
+       </form>
+    </div>
+</div>
+<div class="h24"></div>
+<div class="erjizuian">
+    <div class="erjishetit">最新案例</div>
+    <div class="zuixin">
+        <div class="h15"></div>
+        <div class="zuixinER">
+            <ul>
+                
+                 <foreach name="recommendNews" item="v">
+                                <li class="yiu">
+                    <a href="{:U('Home/Content/case_detail',array('cateid'=>$v['id']))}">
+                        <span>{$v.title}</span>
+                        <!-- <p>㎡</p> -->
+                        <div class="cl"></div>
+                        <div class="h5"></div>
+                        <div class="xinYIimg" >
+                            <img src="/{$v.imgeurl}" style="width:100%;height:184px;"  alt="">
+                        </div>
+                    </a>
+                </li>
+                </foreach>              
+               
+            </ul>
+            <script>
+                $('.yiu').find('.xinYIimg').hide();
+                $('.yiu').eq(0).find('.xinYIimg').show();
+                $('.yiu').hover(function(){
+                    $('.yiu').find('.xinYIimg').hide();
+                    $(this).find('.xinYIimg').show();
+                })
+
+            </script>
+        </div>
+    </div>
+</div>
+    </div>

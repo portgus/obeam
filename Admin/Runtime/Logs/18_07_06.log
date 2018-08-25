@@ -1,0 +1,111 @@
+[ 2018-07-06T20:56:48+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.021795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037749s ]
+NOTIC: [8] Undefined index: userid C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Lib\Action\BaseAction.class.php 第 4 行.
+
+[ 2018-07-06T20:56:54+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.022949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.023064s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007505s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.177743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177837s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007608s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008038s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030332s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006793s ]
+
+[ 2018-07-06T20:57:52+08:00 ] 127.0.0.1 /admin.php/Login/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007029s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006546s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.122071s ]
+SQL: SELECT * FROM `admin_user` WHERE ( name='admin' and password='456789' ) LIMIT 1   [ RunTime:0.001466s ]
+
+[ 2018-07-06T20:57:52+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008832s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006330s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.098578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098669s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008757s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008670s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008831s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007244s ]
+
+[ 2018-07-06T21:08:21+08:00 ] 127.0.0.1 /admin.php/Product/add_product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007325s ]
+SQL: SHOW COLUMNS FROM `admin_product_cate` [ RunTime:0.034726s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=0 and status=0 )  [ RunTime:0.012189s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=1 and status=0 )  [ RunTime:0.000602s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=2 and status=0 )  [ RunTime:0.000544s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=3 and status=0 )  [ RunTime:0.000540s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=4 and status=0 )  [ RunTime:0.000533s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=5 and status=0 )  [ RunTime:0.000584s ]
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=6 and status=0 )  [ RunTime:0.000605s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=7 and status=0 )  [ RunTime:0.000533s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=8 and status=0 )  [ RunTime:0.000542s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=9 and status=0 )  [ RunTime:0.000628s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=10 and status=0 )  [ RunTime:0.000434s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=11 and status=0 )  [ RunTime:0.000431s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=12 and status=0 )  [ RunTime:0.000657s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=13 and status=0 )  [ RunTime:0.000479s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=14 and status=0 )  [ RunTime:0.000520s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=16 and status=0 )  [ RunTime:0.000537s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+SQL: SELECT * FROM `admin_product_cate` WHERE ( pid=15 and status=0 )  [ RunTime:0.000547s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Common\common.php 第 9 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: editor_arr C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 291 行.
+NOTIC: [8] Undefined variable: editor_arr C:\Users\Administrator\Desktop\UPUPW_AP5.4\vhosts\www.Hbeam.com\Admin\Runtime\Cache\f8a8cab5293a67cc0c2fc7e5b9bedff7.php 第 313 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.116820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116894s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007116s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007867s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006989s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007681s ]
+
